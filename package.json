@@ -17,6 +17,7 @@
 		"build:client": "yarn workspace @mern-project-boilerplate/client build",
 		"dev:server": "yarn workspace @mern-project-boilerplate/server dev",
 		"start:server": "yarn workspace @mern-project-boilerplate/server start",
-		"dev": "concurrently \"yarn dev:server\" \"yarn dev:client\""
+		"dev": "concurrently \"yarn dev:server\" \"yarn dev:client\"",
+		"start": "yarn build:client && yarn start:server"
 	}
 }

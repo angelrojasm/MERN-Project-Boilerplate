@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
 	async function getHelloMessage() {
 		let message = await fetch('/hello');
 		let result = await message.text();
-		console.log(result);
 		setMessage(result);
 	}
 
