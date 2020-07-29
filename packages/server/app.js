@@ -14,7 +14,7 @@ app.get('/hello', function (req, res) {
 app.get('/get-all', async function (req, res) {
 	res.send(await sampleModel.find());
 });
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
 	console.log('app is running on port ' + port);
 });
 
