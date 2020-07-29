@@ -1,0 +1,11 @@
+{
+	"name": "mern-project-boilerplate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/angelrojasm/MERN-Project-Boilerplate.git",
+	"author": "angelrojasm <angelrojasm6@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"concurrently": "^5.2.0"
+	}
+}
